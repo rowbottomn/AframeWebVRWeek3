@@ -1,0 +1,120 @@
+body{
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #9999C3;
+}
+
+#container{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#banner{
+  /*0.2pc is about 5px*/
+ /* background-color: #7B8CDE;*/
+  background-image: url("/images/3Dbanner.png");
+  width:90%;
+  color:  rgb(51, 64, 133);
+  text-shadow: 0 0 10px #E88D67;
+  text-align:  center;
+  margin:auto;
+  border-radius: 9px;
+  border: #E88D67 solid 3px;
+  
+}
+
+#navbar{
+  display: flex;
+  flex-flow: row nowrap;
+  width:90%;
+  justify-content: space-around;
+  background-color:  #B0D0D3;
+  color: #B0D0D3;
+  text-shadow: 0 0 5px #E88D67;
+  text-align:  center;
+  margin:auto;
+  border-radius: 9px;
+  border: #E88D67 solid 3px;
+}
+
+.navimg{
+  width: 8%;
+  background-color: blanchedalmond;
+  border-radius : 2%
+}
+
+#content{
+  text-align: justify;
+  width : 90%;
+  background-color: #BB999C;
+  padding: 20px;
+  box-sizing: border-box;
+  /*padding-block-end: 50px;*/
+  border-radius: 9px;
+  border: #E88D67 solid 3px;
+  font-size: 1.1pc;
+}
+
+.img_holder{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.imgs_holder{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  width: 100%;
+}
+
+.multi_img{
+  width:30%;
+}
+
+iframe{
+  width : 90%;
+  height : 400px;
+  box-sizing: content-box ;
+
+}
+.centered_img{
+  width:75%;
+  max-block-size: 600px 400px;
+  min-block-size: 300px 200px;
+  
+  padding: 9px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    text-decoration: none;
+    color : #7B8CDE;
+    padding:10px;
+    width : 30%;
+    border-radius: 9px;
+    /*border: #E88D67 solid 9px;*/
+    background-color:  #B0D0D3;
+}
+
+a.button:hover{
+    color : #5B6CAE;
+    background-color:  #d0e0e3;
+}
+
+material-icons{
+  font-size:56px
+}
+/*.navlink{
+  text-decoration: none;
+  color : #7B8CDE;
+  padding:10px;
+}*/

@@ -1,0 +1,40 @@
+Week 3
+
+Adding components to a-entities to make a custom a-entity
+  Pizza analogy
+    Pizza is a-entity
+    components are toppings
+    properties are like adjectives
+      spicy, italian sausage, extra modifies cheese
+    Meatlovers, deluxe are like a-sphere, a-sky, etc.
+cursors & parent child relationships
+  Global versus local coordinates
+
+9slice 
+
+Cursor interactions
+
+Week 3 Goal: Virtual Gallery
+
+Week 4
+
+Physics engine
+
+Room
+
+Week 4 Goal: Maze 
+
+Week 4
+Model loading models
+Audio
+
+Week 6 
+Mobile controls
+
+Events
+
+Particle effects - confetti
+
+Goal: Virtual Escape Room
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6000e7736c9b4ac7bc32c3ced7cbc02e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
